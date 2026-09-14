@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../my-clock-scheduler"
+		},
+		{
+			"path": "../../chatgpt-practice"
+		}
+	],
+	"settings": {}
+}

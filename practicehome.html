@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <style>
+            A{
+                color: wheat;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 3px 5px;
+                border-radius: 5px;
+                font-size: 55px;
+                transition: background-color 1s ease-in-out, color 1s ease-in-out;
+            }
+            /* transition은 State가 없는 요소에 붙여야 함. */
+            a:hover{
+                color: tomato;
+                background-color: wheat;
+            }
+
+        </style>
+        <link
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="https://nomadcoders.co/m.png"
+            />
+        <link rel="stylesheet" href="style.css"/>
+        <title>Home - My first webpage</title>
+        <meta charset="utf-8">
+        <meta name="description" content="this is my website">
+    </head>
+    <body>
+        <a href="#">Go home</a>
+<form>
+    <div>
+    <label for="Website">Website</label>
+    <input id="Website" type="url"/>
+    <label for="profile">profile image</label>
+    <input id="profile" type="file" accept="png"/>
+    </div>
+    <div>
+    <input required placeholder="name" type="text"/>
+    </div>
+    <div>
+    <input required placeholder="last name" type="text"/>
+    </div>
+    <div>
+    <input required placeholder="user name" type="text"/>
+    </div>
+    <div>
+    <input required placeholder="password" minlength="10" type="password"/>
+    </div>
+    <input type="submit" value="create account"/>
+    <span>span</span>
+    <a href="#">link</a>
+    <span>span</span>
+    <img src="image.jpeg">
+<!-- inline은 옆에 다른 요소가 올 수 있음 ex:span, a, img-->
+ <!-- inline이나 block을 다른 속성으로 만드는걸 display로 할 수 있음. -->
+ <!-- block은 옆에 다른 요소가 올 수 없음 ex:div -->
+  <!-- inline은 높이와 너비를 가질 수 없음. -->
+</form>
+    </body>
+
+</html>
